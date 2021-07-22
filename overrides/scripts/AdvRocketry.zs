@@ -91,6 +91,30 @@ for pressureTank, thermalTank in arTanks {
 }
 
 /**
+ *  Gas Mining
+ */
+recipes.remove(<advancedrocketry:deployablerocketbuilder>);
+recipes.addShaped(<advancedrocketry:deployablerocketbuilder>, [
+	[<gregtech:meta_item_2:26135>, <gregtech:meta_item_1:32654>, <gregtech:meta_item_2:26135>],
+	[<contenttweaker:steelplating>, <advancedrocketry:advstructuremachine>, <contenttweaker:steelplating>],
+	[<contenttweaker:signalumplating>, <advancedrocketry:rocketbuilder>, <contenttweaker:signalumplating>]
+]);
+recipes.remove(<advancedrocketry:liquidtank>);
+recipes.addShaped(<advancedrocketry:liquidtank>, [
+	[<gregtech:meta_item_1:19135>, reinforcedtankIng, <gregtech:meta_item_1:19135>],
+	[<gregtech:meta_item_1:12145>, null, <gregtech:meta_item_1:12145>],
+	[<contenttweaker:signalumplating>, reinforcedtankIng, <contenttweaker:signalumplating>]
+]);
+<advancedrocketry:liquidtank>.addTooltip("Used on gas mining drones.");
+recipes.remove(<advancedrocketry:intake>);
+recipes.addShaped(<advancedrocketry:intake>, [
+	[<contenttweaker:steelplating>, <gregtech:meta_item_1:32613>, <contenttweaker:steelplating>],
+	[<gregtech:meta_item_2:26135>, <advancedrocketry:advstructuremachine>, <gregtech:meta_item_2:26135>],
+	[<contenttweaker:steelplating>, <gregtech:meta_item_1:32613>, <contenttweaker:steelplating>],
+]);
+<advancedrocketry:intake>.addTooltip("Used on gas mining drones.");
+
+/**
  *	Heavy Platings
  */
 
