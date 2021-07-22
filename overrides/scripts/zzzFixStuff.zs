@@ -105,9 +105,9 @@ recipes.addShapeless("of_crystal_matrix_decomp", <avaritia:resource:1> * 9, [<av
  */
 recipes.addShaped("of_craft_airtight_seal",
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]}),
-    [[<contenttweaker:omnicoin100>, <contenttweaker:omnicoin100>, <contenttweaker:omnicoin100>],
-     [<contenttweaker:omnicoin100>, <contenttweaker:omnicoin100>, <contenttweaker:omnicoin100>],
-     [<contenttweaker:omnicoin100>, <contenttweaker:omnicoin100>, <contenttweaker:omnicoin100>]]);
+    [[<contenttweaker:omnicoin5>, <contenttweaker:omnicoin25>, <contenttweaker:omnicoin5>],
+     [<contenttweaker:omnicoin25>, <contenttweaker:omnicoin100>, <contenttweaker:omnicoin25>],
+     [<contenttweaker:omnicoin5>, <contenttweaker:omnicoin25>, <contenttweaker:omnicoin5>]]);
 
 //Temporary recipe for red alloy with annealed copper in EBF, and adjusting the times of red alloy
 //Red Alloy with annealed copper
