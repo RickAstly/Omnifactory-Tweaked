@@ -1285,7 +1285,7 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:item_misc:22>);
 //Advanced Rocketry Removals
 
 
-mods.jei.JEI.removeAndHide(<advancedrocketry:charcoallog>);
+//mods.jei.JEI.removeAndHide(<advancedrocketry:charcoallog>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:satellitebuilder>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:loader>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:precisionassemblingmachine>);
@@ -1310,9 +1310,9 @@ mods.jei.JEI.removeAndHide(<advancedrocketry:drill>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:solarpanel>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:biomescanner>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:terraformer>);
-mods.jei.JEI.removeAndHide(<advancedrocketry:deployablerocketbuilder>);
-mods.jei.JEI.removeAndHide(<advancedrocketry:liquidtank>);
-mods.jei.JEI.removeAndHide(<advancedrocketry:intake>);
+//mods.jei.JEI.removeAndHide(<advancedrocketry:deployablerocketbuilder>);
+//mods.jei.JEI.removeAndHide(<advancedrocketry:liquidtank>);
+//mods.jei.JEI.removeAndHide(<advancedrocketry:intake>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:solargenerator>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:railgun>);
 mods.jei.JEI.removeAndHide(<advancedrocketry:blocklens>);
