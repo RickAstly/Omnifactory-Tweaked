@@ -1,4 +1,13 @@
-[![Curseforge](http://cf.way2muchnoise.eu/full_313440_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_313440_all.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory)
+[![Curseforge](http://cf.way2muchnoise.eu/full_0_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_0_all.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory)
+
+This is a fork of the Omnifactory modpack created and maintained by BalaM314.
+The following things were changed:
+* Tweaked a few recipes(airtight seal, etc)
+* Enabled more of Advanced Rocketry, including gas giant mining, which allows for chlorine automation(it won't be easy)
+* Added a lot of fun planets :)
+* More coming soon
+
+Original Description:
 
 Omnifactory is a quest-driven, expert-style tech modpack focused on automating large-scale factories. It features a custom take on GregTechCE-centered progression that we hope everyone will enjoy.
 
