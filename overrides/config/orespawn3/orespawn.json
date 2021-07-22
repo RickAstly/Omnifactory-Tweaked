@@ -327,6 +327,169 @@
 					"state": "variant=granite"
 				}
 			]
+		},
+		"extraterrestrial_osmium_igneus": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				140
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 5,
+				"variation": 4,
+				"frequency": 2,
+				"minHeight": 5,
+				"maxHeight": 40
+			},
+			"blocks": [
+				{
+					"name": "gregtech:ore_osmium_0",
+					"chance": 100
+				}
+			]
+		},
+		"extraterrestrial_ore_extremisB": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				144
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 8,
+				"variation": 7,
+				"frequency": 8,
+				"minHeight": 20,
+				"maxHeight": 40
+			},
+			"blocks": [
+				{
+					"name": "gregtech:ore_rutile_0",
+					"chance": 40
+				},
+				{
+					"name": "gregtech:ore_molybdenite_0",
+					"chance": 60
+				}
+			]
+		},
+		"extraterrestrial_blacksteel_irradon": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				143
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 10,
+				"variation": 4,
+				"frequency": 8,
+				"minHeight": 40,
+				"maxHeight": 60
+			},
+			"blocks": [
+				{
+					"name": "extendedcrafting:trimmed",
+					"state": "variant=iron",
+					"chance": 30
+				},
+				{
+					"name": "extendedcrafting:trimmed",
+					"state": "variant=gold",
+					"chance": 20
+				},
+				{
+					"name": "extendedcrafting:trimmed",
+					"state": "variant=diamond",
+					"chance": 15
+				},
+				{
+					"name": "extendedcrafting:trimmed",
+					"state": "variant=emerald",
+					"chance": 15
+				},
+				{
+					"name": "extendedcrafting:trimmed",
+					"state": "variant=crystaltine",
+					"chance": 12
+				},
+				{
+					"name": "extendedcrafting:trimmed",
+					"state": "variant=ultimate",
+					"chance": 8
+				}
+			]
+		},
+		"extraterrestrial_naquadah_irradon": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				143
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 5,
+				"variation": 4,
+				"frequency": 5,
+				"minHeight": 5,
+				"maxHeight": 40
+			},
+			"blocks": [
+				{
+					"name": "gregtech:ore_naquadah_0",
+					"chance": 65
+				},
+				{
+					"name": "gregtech:ore_naquadah_enriched_0",
+					"chance": 35
+				}
+			]
+		},
+		"extraterrestrial_pyrotheum_igneus": {
+			"retrogen": false,
+			"enabled": true,
+			"feature": "default",
+			"replaces": "default",
+			"dimensions": [
+				140
+			],
+			"biomes": {
+				"excludes": []
+			},
+			"parameters": {
+				"size": 9,
+				"variation": 2,
+				"frequency": 9,
+				"minHeight": 16,
+				"maxHeight": 90
+			},
+			"blocks": [
+				{
+					"name": "thermalfoundation:fluid_pyrotheum",
+					"chance": 90
+				},
+				{
+					"name": "advancedrocketry:enrichedlavafluid",
+					"chance": 10
+				}
+			]
 		}
 	}
 }
