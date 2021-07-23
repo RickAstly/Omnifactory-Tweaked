@@ -96,7 +96,7 @@ for pressureTank, thermalTank in arTanks {
 recipes.remove(<advancedrocketry:deployablerocketbuilder>);
 recipes.addShaped(<advancedrocketry:deployablerocketbuilder>, [
 	[<gregtech:meta_item_2:26135>, <gregtech:meta_item_1:32654>, <gregtech:meta_item_2:26135>],
-	[<contenttweaker:steelplating>, <advancedrocketry:advstructuremachine>, <contenttweaker:steelplating>],
+	[<contenttweaker:steelplating>, <libvulpes:advstructuremachine>, <contenttweaker:steelplating>],
 	[<contenttweaker:signalumplating>, <advancedrocketry:rocketbuilder>, <contenttweaker:signalumplating>]
 ]);
 recipes.remove(<advancedrocketry:liquidtank>);
@@ -109,7 +109,7 @@ recipes.addShaped(<advancedrocketry:liquidtank>, [
 recipes.remove(<advancedrocketry:intake>);
 recipes.addShaped(<advancedrocketry:intake>, [
 	[<contenttweaker:steelplating>, <gregtech:meta_item_1:32613>, <contenttweaker:steelplating>],
-	[<gregtech:meta_item_2:26135>, <advancedrocketry:advstructuremachine>, <gregtech:meta_item_2:26135>],
+	[<gregtech:meta_item_2:26135>, <libvulpes:advstructuremachine>, <gregtech:meta_item_2:26135>],
 	[<contenttweaker:steelplating>, <gregtech:meta_item_1:32613>, <contenttweaker:steelplating>],
 ]);
 <advancedrocketry:intake>.addTooltip("Used on gas mining drones.");
