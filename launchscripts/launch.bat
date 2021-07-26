@@ -6,10 +6,10 @@
 :: Added java version check by t0suj4, Public Domain
 :: https://github.com/t0su4
 
-:: DO NOT EDIT UNLESS YOU KNOW WHAT YOU'RE DOING
+:: These must be edited to work. Replace {{forgeJar}} with the filename of your Forge jar.
 @ECHO OFF
 SET FORGEJAR={{forgeJar}}
-SET JAVA_PARAMETERS={{jvmArgs}}
+SET JAVA_PARAMETERS= 
 
 :: these you can edit
 SET MIN_RAM={{minRAM}}
