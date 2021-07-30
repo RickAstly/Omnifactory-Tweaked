@@ -195,3 +195,17 @@ macerator.recipeBuilder()
 	.duration(40)
 	.EUt(500)
 	.buildAndRegister();
+
+
+
+// Concrete
+mixer.recipeBuilder()
+	.inputs([
+		<minecraft:gravel> * 3,
+		<ore:dustClay>
+	])
+	.fluidInputs([<liquid:water> * 500])
+	.fluidOutputs(<liquid:concrete> * 1000)
+	.EUt(16)
+	.duration(200)
+	.buildAndRegister();

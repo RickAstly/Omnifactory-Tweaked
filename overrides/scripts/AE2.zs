@@ -1,5 +1,8 @@
+#ignoreBracketErrors
+
 import mods.gregtech.recipe.RecipeMap;
 import mods.appliedenergistics2.Inscriber;
+import scripts.CommonVars.makeShaped as makeShaped;
 
 //Silicon
 Inscriber.removeRecipe(<appliedenergistics2:material:20>); 
@@ -357,3 +360,205 @@ macerator.recipeBuilder()
 	.outputs(<appliedenergistics2:material:45>)
 	.inputs(<appliedenergistics2:sky_stone_block>)
 	.duration(45).EUt(8).buildAndRegister();
+
+/*
+  P2P Tunnel tooltips.
+ */
+<appliedenergistics2:part:469>.addTooltip(format.green(format.italic(
+	"Made by right-clicking ME P2P Tunnel with an energy conduit.")));
+
+<appliedenergistics2:part:463>.addTooltip(format.green(format.italic(
+	"Made by right-clicking ME P2P Tunnel with a bucket.")));
+
+<appliedenergistics2:part:462>.addTooltip(format.green(format.italic(
+	"Made by right-clicking ME P2P Tunnel with a chest.")));
+
+<appliedenergistics2:part:467>.addTooltip(format.green(format.italic(
+	"Made by right-clicking ME P2P Tunnel with a torch.")));
+
+<appliedenergistics2:part:461>.addTooltip(format.green(format.italic(
+	"Made by right-clicking ME P2P Tunnel with redstone dust.")));
+
+/*
+  Channel-specific adjustments.
+ */
+if (<appliedenergistics2:controller> as bool) {
+	// ME Controller
+	recipes.removeByRecipeName("appliedenergistics2:network/blocks/controller");
+	makeShaped("me_controller", <appliedenergistics2:controller>,
+		["PFP",
+		 "FAF",
+		 "PFP"],
+		{ F : <ore:crystalPureFluix>,
+		  P : <ore:plateDarkSteel>,
+		  A : <appliedenergistics2:energy_acceptor>});
+
+	// Dense Conduit
+	assembler.recipeBuilder()
+		.inputs([<enderio:item_me_conduit> * 4, <ore:itemConduitBinder> * 5])
+		.outputs([<enderio:item_me_conduit:1> * 2])
+		.duration(80)
+		.EUt(16)
+		.buildAndRegister();
+/*
+  Remove channel-specific items otherwise.
+ */
+} else {
+	mods.jei.JEI.removeAndHide(<enderio:item_me_conduit:1>);
+	recipes.removeByRecipeName("appliedenergistics2:network/cables/smart_fluix");
+	recipes.removeByRecipeName("appliedenergistics2:network/cables/dense_covered_fluix");
+}
+
+
+/**
+ * PackagedAuto!
+ */
+
+// Package Component
+recipes.remove(<packagedauto:package_component>);
+makeShaped("pauto_package_component",
+	<packagedauto:package_component>, [
+		"VTV",
+		"TXT",
+		"VTV",
+	], {
+		V: <ore:plateVibrantAlloy>, // Vibrant Alloy Plate
+		T: <ore:plateTitanium>,     // Titanium Plate
+		X: <minecraft:ender_eye>    // Ender Eye
+	});
+
+recipes.remove(<packagedauto:recipe_holder>);
+makeShaped("pauto_recipe_holder",
+	<packagedauto:recipe_holder> * 3, [
+		"GPG",
+		"PBP",
+		"TMT",
+	], {
+		G: <appliedenergistics2:quartz_glass>,  // Quartz Glass
+		P: <appliedenergistics2:material:52>,   // Blank Pattern
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		B: <ore:blockCrystaltine>, // Block of Crystaltine
+		T: <ore:plateTitanium>,    // Titanium Plate
+	});
+
+recipes.remove(<packagedauto:packager>);
+makeShaped("pauto_packager",
+	<packagedauto:packager>, [
+		"TMT",
+		"CXC",
+		"TIT",
+	], {
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		I: <appliedenergistics2:part:240>,      // ME Import Bus
+		T: <ore:plateTitanium>,   // Titanium Plate
+		C: <ore:circuitExtreme>,  // T4 Circuit
+		X: <extrautils2:crafter>, // ExU2 Crafter
+	});
+
+recipes.remove(<packagedauto:unpackager>);
+makeShaped("pauto_unpackager",
+	<packagedauto:unpackager>, [
+		"TMT",
+		"CXC",
+		"TET",
+	], {
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		E: <appliedenergistics2:part:260>,      // ME Export Bus
+		T: <ore:plateTitanium>,   // Titanium Plate
+		C: <ore:circuitExtreme>,  // T4 Circuit
+		X: <extrautils2:crafter>, // ExU2 Crafter
+	});
+
+recipes.remove(<packagedauto:encoder>);
+makeShaped("pauto_encoder",
+	<packagedauto:encoder>, [
+		"TMT",
+		"HXH",
+		"TCT",
+	], {
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		H: <packagedauto:recipe_holder>,        // Recipe Holder
+		T: <ore:plateTitanium>,   // Titanium Plate
+		C: <ore:circuitExtreme>,  // T4 Circuit
+		X: <ae2stuff:encoder>,    // AE2STuff Pattern Encoder
+	});
+
+recipes.remove(<ae2stuff:encoder>);
+makeShaped("ae2stuff_encoder",
+	<ae2stuff:encoder>, [
+		"STS",
+		"AXF",
+		"SCS",
+	], {
+		S: <ore:plateStainlessSteel>,         // Stainless Steel Plate
+		T: <appliedenergistics2:part:340>,    // ME Pattern Terminal
+		F: <appliedenergistics2:material:43>, // Formation Core
+		A: <appliedenergistics2:material:44>, // Annihilation Core
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		C: <ore:circuitAdvanced>,               // T4 Circuit
+		X: <gregtech:machine:503>,              // HV Machine Hull
+	});
+
+
+recipes.remove(<packagedauto:me_package_component>);
+makeShaped("pauto_me_package_component",
+	<packagedauto:me_package_component>, [
+		"PGP",
+		"AXF",
+		"PGP",
+	], {
+		F: <appliedenergistics2:material:43>,  // Formation Core
+		A: <appliedenergistics2:material:44>,  // Annihilation Core
+		G: <appliedenergistics2:quartz_glass>, // Quartz Glass
+		X: <packagedauto:package_component>,   // Package Component
+		P: <ore:plateTitanium>,  // Titanium Plate
+	});
+
+/**
+ * PackagedExCrafting
+ */
+val extremeCrafterPattern as string[] = [
+	"CIC",
+	"BTB",
+	"CMC",
+];
+
+// Advanced Crafter
+recipes.remove(<packagedexcrafting:advanced_crafter>);
+makeShaped("pexc_advanced_crafter",
+	<packagedexcrafting:advanced_crafter>, extremeCrafterPattern, {
+		C: <extendedcrafting:material:15>,      // Advanced Catalyst
+		I: <extendedcrafting:interface>,        // Automation Interface
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		B: <ore:plateBlackSteel>,               // Black Steel Plate
+		T: <extendedcrafting:table_advanced>    // Advanced Crafting Table
+			.transformDamage(0),
+	});
+
+// Elite Crafter
+recipes.remove(<packagedexcrafting:elite_crafter>);
+makeShaped("pexc_elite_crafter",
+	<packagedexcrafting:elite_crafter>, extremeCrafterPattern, {
+		C: <extendedcrafting:material:16>,      // Elite Catalyst
+		I: <extendedcrafting:interface>,        // Automation Interface
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		B: <ore:plateBlackSteel>,               // Black Steel Plate
+		T: <extendedcrafting:table_elite>       // Elite Crafting Table
+			.transformDamage(0),
+	});
+
+// Ultimate
+recipes.remove(<packagedexcrafting:ultimate_crafter>);
+makeShaped("pexc_ultimate_crafter",
+	<packagedexcrafting:ultimate_crafter>, extremeCrafterPattern, {
+		C: <extendedcrafting:material:17>,      // Ultimate Catalyst
+		I: <extendedcrafting:interface>,        // Automation Interface
+		M: <packagedauto:me_package_component>, // ME Packaging Component
+		B: <ore:plateBlackSteel>,               // Black Steel Plate
+		T: <extendedcrafting:table_ultimate>    // Ultimate Crafting Table
+			.transformDamage(0),
+	});
+
+
+
+

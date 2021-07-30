@@ -138,6 +138,13 @@ macerator.recipeBuilder()
 
 */
 
+//Wooden Gear
+recipes.remove(<enderio:item_material:9>);
+recipes.addShaped(<enderio:item_material:9>, [[null,<minecraft:stick>,null],
+	[<minecraft:stick>,null,<minecraft:stick>],
+	[null,<minecraft:stick>,null]]);
+
+
 // Simple Solar
 recipes.remove(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar"}));
 recipes.addShapeless(

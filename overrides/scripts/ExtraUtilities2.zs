@@ -227,4 +227,4 @@ recipes.addShaped(<actuallyadditions:block_furnace_solar>, [
 	[<extrautils2:ingredients>, <solarflux:solar_panel_1>, <extrautils2:ingredients>],
 	[null,<extrautils2:decorativesolid:3>,null]]);
 
-print("--- ActuallyAdditions.zs initialized ---");
+print("--- ExtraUtilities2.zs initialized ---");

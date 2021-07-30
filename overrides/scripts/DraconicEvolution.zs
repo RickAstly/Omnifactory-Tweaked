@@ -11,6 +11,11 @@ var dblock = <draconicevolution:draconium_block>;
 var dragcore = <draconicevolution:draconic_core>;
 var wyvcore = <draconicevolution:wyvern_core>;
 
+recipes.addShaped(<draconicevolution:generator>, [
+	[<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>,<draconicevolution:draconium_ingot>], 
+	[<draconicevolution:draconium_ingot>,<extrautils2:machine>,<draconicevolution:draconium_ingot>], 
+	[<gregtech:meta_block_compressed_14:14>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <gregtech:meta_block_compressed_14:14>]]);
+
 //Wyvern Energy Core
 recipes.remove(<draconicevolution:wyvern_energy_core>);		
 recipes.addShaped(<draconicevolution:wyvern_energy_core>, [
