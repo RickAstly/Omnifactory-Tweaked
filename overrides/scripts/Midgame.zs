@@ -303,14 +303,14 @@ recipes.addShaped(<contenttweaker:creativeportabletankmold>, [
 	[null,<gregtech:meta_item_1:32300>,null], 
 	[null,null,null]]);
 
-extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10184>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17184>]).duration(130).EUt(64).buildAndRegister();	//steel	small gear
-extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10001>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17001>]).duration(130).EUt(64).buildAndRegister();	//aluminium	small gear
-extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10183>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17183>]).duration(130).EUt(64).buildAndRegister();	//stainless steel small gear
-extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10072>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17072>]).duration(130).EUt(64).buildAndRegister();	//titanium small gear
-extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10235>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17235>]).duration(130).EUt(64).buildAndRegister();	//tungstensteel	small gear
-extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10302>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17302>]).duration(130).EUt(64).buildAndRegister();	//hss-g	small gear
-extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10303>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17303>]).duration(130).EUt(64).buildAndRegister();	//hss-e	small gear
-extruder.recipeBuilder().inputs([<avaritia:resource:4>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17972>]).duration(130).EUt(64).buildAndRegister();			//neutronium small gear
+extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10184>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17184>]).duration(30).EUt(64).buildAndRegister();	//steel	small gear
+extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10001>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17001>]).duration(30).EUt(64).buildAndRegister();	//aluminium	small gear
+extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10183>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17183>]).duration(30).EUt(64).buildAndRegister();	//stainless steel small gear
+extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10072>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17072>]).duration(30).EUt(64).buildAndRegister();	//titanium small gear
+extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10235>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17235>]).duration(30).EUt(64).buildAndRegister();	//tungstensteel	small gear
+extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10302>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17302>]).duration(30).EUt(64).buildAndRegister();	//hss-g	small gear
+extruder.recipeBuilder().inputs([<gregtech:meta_item_1:10303>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17303>]).duration(30).EUt(64).buildAndRegister();	//hss-e	small gear
+extruder.recipeBuilder().inputs([<avaritia:resource:4>]).notConsumable(<contenttweaker:smallgearextrudershape>).outputs([<gregtech:meta_item_2:17972>]).duration(4000).EUt(64).buildAndRegister();			//neutronium small gear
 
 
 recipes.addShaped(<enderio:item_material:41>, [
