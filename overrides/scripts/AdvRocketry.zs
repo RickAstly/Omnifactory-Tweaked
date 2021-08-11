@@ -114,6 +114,11 @@ recipes.addShaped(<advancedrocketry:intake>, [
 ]);
 <advancedrocketry:intake>.addTooltip("Used on gas mining drones.");
 
+
+//Vitrified Sand
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<advancedrocketry:vitrifiedsand>, <minecraft:sand>, 2000);
+
+
 /**
  *	Heavy Platings
  */

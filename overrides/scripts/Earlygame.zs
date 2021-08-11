@@ -258,6 +258,7 @@ recipes.addShaped(<enderio:item_yeta_wrench>, [
 <gregtech:machine:793>.displayName = "Fluid Output Hatch (MAX)";
 
 
+macerator.recipeBuilder().inputs([<advancedrocketry:vitrifiedsand>]).outputs([<gregtech:meta_item_1:2269>]).duration(5).EUt(1920).buildAndRegister();
 
 
 //Chemistry
