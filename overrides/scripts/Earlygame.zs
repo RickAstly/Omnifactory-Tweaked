@@ -456,7 +456,7 @@ wiremill.recipeBuilder().inputs([<extendedcrafting:material:32>]).outputs([<greg
 centrifuge.findRecipe(30, [<gregtech:meta_item_1:2231> * 5], [null]).remove();
 electrolyzer.findRecipe(90, [<gregtech:meta_item_1:2114> * 8], [null]).remove();
 electrolyzer.recipeBuilder().inputs([<gregtech:meta_item_1:2114> * 8]).outputs([<gregtech:meta_item_1:2035> * 3,<gregtech:meta_item_1:2062> * 3, <gregtech:meta_item_1:2065> * 2]).duration(500).EUt(32).buildAndRegister();
-electrolyzer.recipeBuilder().inputs([<ore:dustEnderPearl>]).outputs([<contenttweaker:pulsatingdust>]).duration(200).EUt(1000).buildAndRegister();
+electrolyzer.recipeBuilder().inputs([<ore:dustEnderPearl>]).outputs([<contenttweaker:pulsatingdust>]).duration(4).EUt(8193).buildAndRegister();
 electrolyzer.findRecipe(60, [<gregtech:meta_item_1:2218> * 10], [null]).remove();
 
 
