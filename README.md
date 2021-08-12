@@ -1,3 +1,8 @@
+WARNING: YOU ARE ON THE MCINSTANCE BRANCH! DO NOT BE ON THIS BRANCH UNLESS YOU KNOW WHAT YOU ARE DOING!
+
+
+
+
 [![Curseforge](http://cf.way2muchnoise.eu/full_0_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_0_all.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory)
 
 This is a fork of the Omnifactory modpack created and maintained by BalaM314.
