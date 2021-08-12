@@ -21,3 +21,5 @@ overrides/minecraftinstance.json
 overrides/servers.dat
 overrides/usercache.json
 overrides/usernamecache.json
+overrides/mods/*.jar
+!overrides/mods/appliedenergistics2-rv6-stable-7.omni-fixes-v46d.jar
