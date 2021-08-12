@@ -1610,7 +1610,7 @@ mods.jei.JEI.removeAndHide(<enderio:block_solar_panel:3>);
 mods.jei.JEI.removeAndHide(<enderio:block_solar_panel:4>);
 mods.jei.JEI.removeAndHide(<enderio:block_solar_panel:5>);
 mods.jei.JEI.removeAndHide(<enderio:block_solar_panel:6>);
-mods.jei.JEI.removeAndHide(<extrautils2:user>);
+//mods.jei.JEI.removeAndHide(<extrautils2:user>);
 mods.jei.JEI.removeAndHide(<extrautils2:contract>);
 mods.jei.JEI.removeAndHide(<enderio:block_cap_bank>);
 mods.jei.JEI.removeAndHide(<enderio:item_capacitor_grainy>);

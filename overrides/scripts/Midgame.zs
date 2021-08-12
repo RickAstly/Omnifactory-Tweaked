@@ -127,6 +127,14 @@ macerator.recipeBuilder()
 recipes.remove(<actuallyadditions:item_misc:19>);	
 reactor.recipeBuilder().inputs([<minecraft:nether_star>]).fluidInputs([<liquid:ender_distillation> * 8000]).outputs(<actuallyadditions:item_misc:19>).EUt(400).duration(2000).buildAndRegister();
 
+//Mechanical User
+recipes.remove(<extrautils2:user>);
+recipes.addShaped(<extrautils2:user>, [
+	[<ore:dustRedstone>, <redstonearsenal:tool.wrench_flux>, <ore:dustRedstone>],
+	[<ore:plateTitanium>, <extrautils2:machine>, <ore:plateTitanium>],
+	[<ore:plateMithril>, <actuallyadditions:block_directional_breaker>, <ore:plateMithril>]
+]);
+
 
 //Distillation Tower
 recipes.remove(<gregtech:machine:515>);
