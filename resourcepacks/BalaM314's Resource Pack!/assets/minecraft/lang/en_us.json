@@ -1,0 +1,22 @@
+{
+    "disconnect.loginFailedInfo.invalidSession": "That server is not cracked, you PIRATE!!!",
+    "multiplayer.status.incompatible": "Incompatible version!",
+    "multiplayer.disconnect.duplicate_login": "Someone else logged in as you. Pirates, anyone?",
+    "multiplayer.disconnect.flying": "u have bad flyhack and got kicked by vanilla anticheat lmao",
+    "multiplayer.disconnect.idling": "Oi wake up",
+    "multiplayer.disconnect.illegal_characters": "Illegal characters in chat, stop hacking",
+    "multiplayer.disconnect.invalid_entity_attacked": "Turn off your killaura",
+    "multiplayer.disconnect.invalid_player_movement": "Turn off your speedhack",
+    "multiplayer.disconnect.invalid_vehicle_movement": "Turn off your entity speedhack",
+    "multiplayer.disconnect.kicked": "Kicked by an operator!!",
+    "multiplayer.disconnect.not_whitelisted": "You are not whitelisted on this server, go ask the owner for a whitelist",
+    "selectWorld.backupWarning": "This world was last played in version %s; you are on version %s. We're totally competent programmers, but make a backup anyway.",
+    "selectWorld.backupWarning.customized": "We didn't like customized worlds so you have to play them on 1.12, otherwise they'll get broken. This wasn't a technical limitation, we just felt like disabling an awesome feature for no reason.",
+    "selectWorld.backupWarning.customized.comment": "yes I'm still salty about that.",
+    "book.generation.3": "Glitched",
+    "enchantment.level.31415": "MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMCDXV",
+    "enchantment.level.32767": "32K",
+    "deathScreen.title": "You Ded!",
+    "deathScreen.title.hardcore": "You very ded!",
+    "enchantment.minecraft.binding_curse": "Curse of Stuck"
+}
