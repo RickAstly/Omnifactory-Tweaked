@@ -13,8 +13,6 @@
   "name": "Omnifactory Tweaked",
   "author": "BalaM314, OmnifactoryDevs",
   "projectID": 313440,
-<<<<<<< HEAD
-=======
   "externalDependencies": [
     {
       "name": "Applied Energistics 2 Trousers Edition",
@@ -22,7 +20,6 @@
       "sha": "b824a59373428f0e7582b1a38dabdeb458bdab22"
     }
   ],
->>>>>>> be11bb0f851b90a5c28125a18e8b62e2ebfbd22b
   "files": [
     {
       "projectID": 243121,
