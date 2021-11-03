@@ -13,6 +13,16 @@
   "name": "Omnifactory Tweaked",
   "author": "BalaM314, OmnifactoryDevs",
   "projectID": 313440,
+<<<<<<< HEAD
+=======
+  "externalDependencies": [
+    {
+      "name": "Applied Energistics 2 Trousers Edition",
+      "url": "https://github.com/PrototypeTrousers/Applied-Energistics-2/releases/download/omni-fixes-v47/appliedenergistics2-rv6-stable-7.omni-fixes-v47b.jar",
+      "sha": "b824a59373428f0e7582b1a38dabdeb458bdab22"
+    }
+  ],
+>>>>>>> be11bb0f851b90a5c28125a18e8b62e2ebfbd22b
   "files": [
     {
       "projectID": 243121,
@@ -251,7 +261,7 @@
     },
     {
       "projectID": 223565,
-      "fileID": 3051542,
+      "fileID": 3431261,
       "required": true
     },
     {
@@ -276,7 +286,7 @@
     },
     {
       "projectID": 231382,
-      "fileID": 3051539,
+      "fileID": 3408276,
       "required": true
     },
     {
@@ -306,12 +316,12 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3383242,
+      "fileID": 3478825,
       "required": true
     },
     {
       "projectID": 246996,
-      "fileID": 2722575,
+      "fileID": 3440963,
       "required": true
     },
     {
@@ -416,7 +426,7 @@
     },
     {
       "projectID": 293327,
-      "fileID": 3388082,
+      "fileID": 3478805,
       "required": true
     },
     {
@@ -446,7 +456,7 @@
     },
     {
       "projectID": 308380,
-      "fileID": 3214216,
+      "fileID": 3418955,
       "required": true
     },
     {
@@ -476,7 +486,7 @@
     },
     {
       "projectID": 316751,
-      "fileID": 3406210,
+      "fileID": 3482687,
       "required": true
     },
     {
@@ -581,7 +591,7 @@
     },
     {
       "projectID": 398267,
-      "fileID": 3146463,
+      "fileID": 3477735,
       "required": true
     },
     {
@@ -596,7 +606,7 @@
     },
     {
       "projectID": 257814,
-      "fileID": 3321760,
+      "fileID": 3467576,
       "required": true
     },
     {
@@ -606,7 +616,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3351491,
+      "fileID": 3475272,
       "required": true
     },
     {
