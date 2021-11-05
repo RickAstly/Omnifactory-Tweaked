@@ -49,7 +49,7 @@ Calcium:
 * Garnet sand :)
 Scandium: TBO
 Titanium:
-* T1 microminer exclusive, but you can find rutile on Extremis B
+* T1 microminer exclusive, but you can find rutile on the moon
 Vanadium:
 * Microminer
 Chromium:
