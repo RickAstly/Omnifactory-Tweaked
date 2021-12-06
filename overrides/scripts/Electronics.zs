@@ -1006,3 +1006,39 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:lumium> * 288)
 	.outputs(<metaitem:field.generator.iv>)
 	.duration(100).EUt(7680).buildAndRegister();
+
+////////////// motors ////////////
+
+
+assembler.recipeBuilder()
+	.inputs(<ore:cableGtSingleTin> * 2, <ore:stickSteel>, <ore:stickSteelMagnetic>)
+	.fluidInputs(<liquid:copper> * 288)
+	.outputs(<gregtech:meta_item_1:32600>)
+	.duration(100).EUt(30).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<ore:cableGtSingleCopper> * 2, <ore:stickAluminium>, <ore:stickSteelMagnetic>)
+	.fluidInputs(<liquid:copper> * 576)
+	.outputs(<gregtech:meta_item_1:32601>)
+	.duration(100).EUt(120).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<ore:cableGtSingleGold> * 2, <ore:stickStainlessSteel>, <ore:stickSteelMagnetic>)
+	.fluidInputs(<liquid:copper> * 1152)
+	.outputs(<gregtech:meta_item_1:32602>)
+	.duration(100).EUt(480).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<ore:cableGtSingleAluminium> * 2, <ore:stickTitanium>, <ore:stickNeodymiumMagnetic>)
+	.fluidInputs(<liquid:annealed_copper> * 2304)
+	.outputs(<gregtech:meta_item_1:32603>)
+	.duration(100).EUt(1920).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs(<ore:cableGtSingleTungsten> * 2, <ore:stickTungstenSteel>, <ore:stickNeodymiumMagnetic>)
+	.fluidInputs(<liquid:annealed_copper> * 4608)
+	.outputs(<gregtech:meta_item_1:32604>)
+	.duration(100).EUt(7680).buildAndRegister();
+
+
+
