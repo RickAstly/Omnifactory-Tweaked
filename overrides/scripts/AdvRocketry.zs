@@ -116,7 +116,7 @@ recipes.addShaped(<advancedrocketry:intake>, [
 
 
 //Vitrified Sand
-mods.actuallyadditions.AtomicReconstructor.addRecipe(<advancedrocketry:vitrifiedsand>, <minecraft:sand>, 2000);
+mods.actuallyadditions.AtomicReconstructor.addRecipe(<advancedrocketry:vitrifiedsand>, <minecraft:sandstone>, 2000);
 
 
 /**
