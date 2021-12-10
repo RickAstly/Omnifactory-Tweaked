@@ -1,19 +1,19 @@
-[![Curseforge](http://cf.way2muchnoise.eu/full_0_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory) [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_0_all.svg)](https://www.curseforge.com/minecraft/modpacks/omnifactory)
+# Omnifactory Tweaked
 
-This is a fork of the Omnifactory modpack created and maintained by BalaM314.
-The following things were changed:
+This is a fork of the Omnifactory modpack created and maintained by BalaM314. It is currently the only actively maintained fork of Omnifactory.
+The following major things were changed:
 * Tweaked a few recipes(airtight seal, etc)
-* Enabled more of Advanced Rocketry, including gas giant mining, which allows for chlorine automation(it won't be easy)
+* Enabled more of Advanced Rocketry, including gas giant mining, which allows for chlorine automation
 * Added a lot of fun planets :)
 * More coming soon
 
+
+
+
+
 Original Description:
 
-\[[Download Dev Snapshots Here](https://nightly.link/OmnifactoryDevs/Omnifactory/workflows/nightly/dev)] \[[Learn How to Install or Update to Dev Snapshots Here](https://github.com/OmnifactoryDevs/OmnifactoryGuides/blob/latest/guides/PlayingOnDev.md)]
-
 Omnifactory is a quest-driven, expert-style tech modpack focused on automating large-scale factories. It features a custom take on GregTechCE-centered progression that we hope everyone will enjoy.
-
-This modpack exists thanks to the efforts of Damien Reave, who is the original author and maintainer through version 1.2.1. Exaxxion assumed the maintainer role in January 2020, and is working collaboratively with members of the Omnifactory Discord community to continue development of the pack.
 
 You can contribute to this project by creating an issue for any bugs you discover or enhancements you would like to request. Please check to see if an issue already exists before creating a new one. 
 
