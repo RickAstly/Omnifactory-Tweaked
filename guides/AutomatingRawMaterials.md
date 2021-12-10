@@ -1,6 +1,13 @@
 # This document contains information on how to automate every raw material.
 ## Warning: You may enjoy finding it out yourself, instead of just reading a document.
 
+## Automation Chains
+Below is a list of the best processing chains that you might have missed.
+
+Granite processing:
+
+Granite -> macerator -> Black Granite Dust -> Electrolyzer -> (Silicon dioxide + ) Biotite Dust -> 
+wip
 
 ## Elements
 Lines with a :) indicate that the recipe was added by me.

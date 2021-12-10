@@ -223,7 +223,7 @@ freezer.recipeBuilder()
     .inputs([<contenttweaker:hotdraconiumingot>])
     .fluidInputs([<liquid:cryotheum> * 2000])
     .outputs(<draconicevolution:draconium_ingot>)
-    .duration(600).EUt(1200).buildAndRegister();
+    .duration(200).EUt(1200).buildAndRegister();
 
 freezer.recipeBuilder()
     .inputs([<minecraft:ice>])
