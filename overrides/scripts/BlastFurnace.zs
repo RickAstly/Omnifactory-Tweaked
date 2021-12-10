@@ -189,7 +189,7 @@ recipes.addShapeless(<thermalfoundation:material:102> * 4, [
 	<extendedcrafting:material:7>,<extendedcrafting:material:7>,<thermalfoundation:material:894>]);
 
 //Osmium [tier idk]
-furnace.removeRecipe(<ore:ingotOsmium>);
+furnace.remove(<ore:ingotOsmium>);
 
 //Niobium-Titanium [tier 9]
 blast_furnace.findRecipe(480, [<gregtech:meta_item_1:10045>,<gregtech:meta_item_1:10072>], [null]).remove();
