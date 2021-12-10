@@ -1,6 +1,6 @@
 # Omnifactory Tweaked
 
-This is a fork of the Omnifactory modpack created and maintained by BalaM314. It is currently the only actively maintained fork of Omnifactory.
+This is a fork of the Omnifactory modpack created and maintained by BalaM314. It is currently the only actively maintained fork of Omnifactory(except ste).
 The following major things were changed:
 * Tweaked a few recipes(airtight seal, etc)
 * Enabled more of Advanced Rocketry, including gas giant mining, which allows for chlorine automation
