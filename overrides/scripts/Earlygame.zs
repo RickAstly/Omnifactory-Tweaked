@@ -196,16 +196,62 @@ recipes.addShapeless(<minecraft:blaze_rod>, [<minecraft:brewing_stand>]);
 //LV Macerator
 recipes.remove(<gregtech:machine:60>);
 recipes.addShaped(<gregtech:machine:60>, [
-	[<gregtech:meta_item_1:32640>, <gregtech:meta_item_1:32600>, <gregtech:meta_item_2:14197>],
+	[<metaitem:electric.piston.lv>, <metaitem:electric.motor.lv>, <ore:toolHeadBuzzSawWroughtIron>],
 	[<ore:cableGtSingleTin>, <ore:cableGtSingleTin>, <gregtech:machine:501>],
 	[<ore:circuitBasic>, <ore:circuitBasic>, <ore:cableGtSingleTin>]]);
 
 //MV Macerator
 recipes.remove(<gregtech:machine:61>);
 recipes.addShaped(<gregtech:machine:61>, [
-	[<gregtech:meta_item_1:32641>, <gregtech:meta_item_1:32601>, <gregtech:meta_item_2:14184>],
+	[<metaitem:electric.piston.mv>, <metaitem:electric.motor.mv>, <ore:toolHeadBuzzSawSteel>],
 	[<ore:cableGtSingleCopper>, <ore:cableGtSingleCopper>, <gregtech:machine:502>],
 	[<ore:circuitGood>, <ore:circuitGood>, <ore:cableGtSingleCopper>]]);
+
+//HV Macerator
+recipes.remove(<gregtech:machine:62>);
+recipes.addShaped(<gregtech:machine:62>, [
+	[<metaitem:electric.piston.hv>, <metaitem:electric.motor.hv>, <ore:toolHeadBuzzSawStainlessSteel>],
+	[<ore:cableGtSingleGold>, <ore:cableGtSingleGold>, <gregtech:machine:503>],
+	[<ore:circuitAdvanced>, <ore:circuitAdvanced>, <ore:cableGtSingleGold>]]);
+
+//EV Macerator
+recipes.remove(<gregtech:machine:63>);
+recipes.addShaped(<gregtech:machine:63>, [
+	[<metaitem:electric.piston.ev>, <metaitem:electric.motor.ev>, <ore:toolHeadBuzzSawTitanium>],
+	[<ore:cableGtSingleAluminium>, <ore:cableGtSingleAluminium>, <gregtech:machine:504>],
+	[<ore:circuitExtreme>, <ore:circuitExtreme>, <ore:cableGtSingleAluminium>]]);
+
+//IV Macerator
+recipes.remove(<gregtech:machine:2020>);
+recipes.addShaped(<gregtech:machine:2020>, [
+	[<metaitem:electric.piston.iv>, <metaitem:electric.motor.iv>, <ore:toolHeadBuzzSawTungstenCarbide>],
+	[<ore:cableGtSinglePlatinum>, <ore:cableGtSinglePlatinum>, <gregtech:machine:505>],
+	[<ore:circuitElite>, <ore:circuitElite>, <ore:cableGtSinglePlatinum>]]);
+
+//LuV Macerator
+recipes.remove(<gregtech:machine:2021>);
+recipes.addShaped(<gregtech:machine:2021>, [
+	[<metaitem:electric.piston.luv>, <metaitem:electric.motor.luv>, <ore:toolHeadBuzzSawNaquadah>],
+	[<ore:cableGtSingleNiobiumTitanium>, <ore:cableGtSingleNiobiumTitanium>, <gregtech:machine:506>],
+	[<ore:circuitMaster>, <ore:circuitMaster>, <ore:cableGtSingleNiobiumTitanium>]]);
+
+//ZPM Macerator
+recipes.remove(<gregtech:machine:2022>);
+recipes.addShaped(<gregtech:machine:2022>, [
+	[<metaitem:electric.piston.zpm>, <metaitem:electric.motor.zpm>, <ore:toolHeadBuzzSawDuranium>],//this gates it behind fusion which is... eh who cares!
+	[<ore:cableGtSingleNaquadah>, <ore:cableGtSingleNaquadah>, <gregtech:machine:507>],
+	[<ore:circuitUltimate>, <ore:circuitUltimate>, <ore:cableGtSingleNaquadah>]]);
+
+//UV Macerator
+recipes.remove(<gregtech:machine:2023>);
+recipes.addShaped(<gregtech:machine:2023>, [
+	[<metaitem:electric.piston.uv>, <metaitem:electric.motor.uv>, <ore:toolHeadBuzzSawNeutronium>],
+	[<ore:cableGtQuadrupleNaquadahAlloy>, <ore:cableGtQuadrupleNaquadahAlloy>, <gregtech:machine:508>],
+	[<ore:circuitSuperconductor>, <ore:circuitSuperconductor>, <ore:cableGtQuadrupleNaquadahAlloy>]]);
+//I'm planning to maybe eventually switch all UV machines to 4x cables instead of wires
+
+
+
 
 //LV Piston
 recipes.addShaped(<gregtech:meta_item_1:32640>, [
@@ -764,7 +810,8 @@ recipes.remove(<gregtech:machine:272>);
 recipes.remove(<gregtech:machine:273>);
 
 
-recipes.addShaped(<gregtech:machine:271>, [[<ore:wireGtQuadrupleCupronickel>, <ore:wireGtQuadrupleCupronickel>, <ore:circuitGood>],
+recipes.addShaped(<gregtech:machine:271>, [
+	[<ore:wireGtQuadrupleCupronickel>, <ore:wireGtQuadrupleCupronickel>, <ore:circuitGood>],
 	[<gregtech:meta_item_1:32641>, <gregtech:machine:502>, <ore:pipeMediumSteel>],
 	[<ore:wireGtQuadrupleCupronickel>, <ore:wireGtQuadrupleCupronickel>, <ore:circuitGood>]]);
 
