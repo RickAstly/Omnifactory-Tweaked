@@ -218,7 +218,7 @@
           "ismain:1": 1,
           "repeat_relative:1": 1,
           "name:8": "Canning Machine and Assorted Stuff",
-          "desc:8": "Note: this quest accepts both LV and MV Canning Machines.\n\n§aLV Batteries§r were very simple to make, but more effective forms of power storage will be more complex to build, so we\u0027ll need to lay the groundwork now.\n\nPut your §3Centrifuge§r to work for the §6Antimony§r you\u0027ll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r and §6Stibnite Ore§r.\n\n"
+          "desc:8": "Note: this quest accepts both LV and MV Canning Machines.\n\n§aLV Batteries§r were very simple to make, but more effective forms of power storage will be more complex to build, so we\u0027ll need to lay the groundwork now.\n\nYou can put your §3Centrifuge§r to work for the §6Antimony§r you\u0027ll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r.\n\nYou can also directly smelt §6Stibnite Ore§r, but it is more efficient to process it."
         }
       },
       "tasks:9": {
