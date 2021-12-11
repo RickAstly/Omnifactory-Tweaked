@@ -18,6 +18,9 @@ Minor tweaks:
 * Switched naquadah back to a smelting recipe, so it can be a pattern break
 * Added back the motor recipes that use liquid
 * Removed osmium smelting
+* AE2 tools re-enabled
+* Storage drawers keep their contents when broken
+* Darmstadtium is craftable
 
 
 More are coming soon!
