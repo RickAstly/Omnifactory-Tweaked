@@ -214,6 +214,7 @@ engraver.recipeBuilder().inputs([<gregtech:meta_block_compressed_0:1>]).notConsu
 engraver.recipeBuilder().inputs([<gregtech:meta_block_compressed_0:1>]).notConsumable(<gregtech:meta_item_1:15111>).outputs([<appliedenergistics2:material:19>]).EUt(120).duration(1600).buildAndRegister();
 engraver.recipeBuilder().inputs([<gregtech:meta_block_compressed_0:1>]).notConsumable(<ore:craftingLensLime>).outputs([<appliedenergistics2:material:15>]).EUt(120).duration(1600).buildAndRegister();
  
+recipes.remove(<appliedenergistics2:part:120>);
 recipes.addShapeless(<appliedenergistics2:part:120>, [<gregtech:meta_item_1:16184>]); 
  
 //Interface
