@@ -8,7 +8,7 @@ The following major things were changed:
 * Make Certus Quartz and Garnet anything automateable, through Vitrified Sand
 * Added dogecoin
 For the rest of the changes, see [Tweaks.md](guides/Tweaks.md)
-
+This fork *may* also get bug fixes more frequently than main Omnifactory.
 
 
 
