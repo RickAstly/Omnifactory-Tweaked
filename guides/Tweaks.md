@@ -21,6 +21,7 @@ Minor tweaks:
 * AE2 tools re-enabled
 * Storage drawers keep their contents when broken
 * Darmstadtium is craftable
+* Gated silicone to HV and added a catalyzed recipe, also tweaked chemistry
 
 
 More are coming soon!
