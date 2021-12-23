@@ -1,0 +1,1 @@
+If the file en_us.lang is missing, the pack was probably built incorrectly.
