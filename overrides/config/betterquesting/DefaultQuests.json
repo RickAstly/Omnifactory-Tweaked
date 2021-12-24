@@ -196,7 +196,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Note: this quest accepts both LV and MV Canning Machines.\n\n§aLV Batteries§r were very simple to make, but more effective forms of power storage will be more complex to build, so we\u0027ll need to lay the groundwork now.\n\nPut your §3Centrifuge§r to work for the §6Antimony§r you\u0027ll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r and §6Stibnite Ore§r.\n\n",
+          "desc:8": "Note: this quest accepts both LV and MV Canning Machines.\n\n§aLV Batteries§r were very simple to make, but more effective forms of power storage will be more complex to build, so we\u0027ll need to lay the groundwork now.\n\nYou can put your §3Centrifuge§r to work for the §6Antimony§r you\u0027ll need, which comes in tiny piles from processing §6Tetrahedrite Ore§r.\n\nYou can also directly smelt §6Stibnite Ore§r, but it is more efficient to process it.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31380,7 +31380,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§bEnderIO§r and §bThermal§r alloys are a bit more expensive than the normal wires, but they come with the huge advantage of being §elossless§r. Lossy cables like §6Tin§r and §6Copper§r will bleed out energy for every block they travel, but lossless ones do not.\n\nThe lossless cables for each tier are:\n\nLV - Conductive Iron Cables\nMV - Energetic Alloy Cables\nHV - Vibrant Alloy Cables\nEV - End Steel Cables\nIV - Lumium Cables\nLuV   - Signalum Cables\nZPMV - Enderium Cables\nUV     - Draconium Cables\nMaxV - Omnium Cables\n\nMV and higher cables are made in an §3Assembling Machine§r. They\u0027re made with liquid §9Rubber§r and §6Wires§r, plus a reusable §6Programmed Circuit§r that tells it what thickness of wire to make.\n\nYou can use Wires, and for these materials they\u0027ll conduct just as well as if they were covered. But they\u0027ll §ckill you if you touch them while power is passing through§r, so... yeah. Your call.",
+          "desc:8": "§bEnderIO§r and §bThermal§r alloys are a bit more expensive than the normal wires, but they come with the huge advantage of being §elossless§r. Lossy cables like §6Tin§r and §6Copper§r will bleed out energy for every block they travel, but lossless ones do not.\n\nThe lossless cables for each tier are:\n\nLV - Conductive Iron Cables\nMV - Energetic Alloy Cables\nHV - Vibrant Alloy Cables\nEV - End Steel Cables\nIV - Lumium Cables\nLuV   - Signalum Cables\nZPMV - Enderium Cables\nUV     - Draconium Cables\nMaxV - Omnium Cables\n\nMV and higher cables are made in an §3Assembling Machine§r. They\u0027re made with liquid §9Rubber§r and §6Wires§r, plus a reusable §6Programmed Circuit§r that tells it what thickness of wire to make.\n\nYou can use Wires, and for these materials they\u0027ll conduct just as well as if they were covered. But they\u0027ll §ckill you if you touch them while power is passing through§r, so... yeah. Your call.\n\nAlso note that beyond EV, the 1 or 2 EU/t you'll lose by using regular cables becomes insignificant, so you may want to use cheaper materials.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54971,7 +54971,7 @@
       "home_offset_y:3": 0,
       "livesdef:3": 3,
       "livesmax:3": 10,
-      "pack_name:8": "Omnifactory",
+      "pack_name:8": "Omnifactory Tweaked",
       "pack_version:3": 10,
       "party_enable:1": 1
     }
