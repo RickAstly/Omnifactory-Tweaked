@@ -1,6 +1,6 @@
 # Omnifactory Tweaked
 
-This is a fork of the Omnifactory modpack created and maintained by BalaM314. It is currently the only actively maintained fork of Omnifactory(except ste).
+This is a fork of the Omnifactory modpack created and maintained by BalaM314. It is currently the only actively maintained fork of Omnifactory(except ste). This fork slightly prioritizes ease of automation over balance.
 The following major things were changed:
 * Added several (Advanced Rocketry) planets. These planets also have a few exclusive ores, for more details see [GuideToThePlanets.md](guides/GuideToThePlanets.md).
 * Add back gas mining, which allows Chlorine to be automated (yay!)

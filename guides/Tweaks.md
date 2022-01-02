@@ -6,7 +6,7 @@ Major tweaks:
 * Added several (Advanced Rocketry) planets. These planets also have a few exclusive ores, for more details see [GuideToThePlanets.md](GuideToThePlanets.md).
 * Add back gas mining, which allows Chlorine to be automated (yay!)
 * Added Quark(and autoreglib)
-* Make Certus Quartz and Garnet anything automateable, through Vitrified Sand
+* Make Certus Quartz and Garnet anything automateable, through Vitrified Sand(this and chlorine does make t1mm obsolete post tank which is not great but oh well)
 * Added dogecoin
 
 Minor tweaks:
