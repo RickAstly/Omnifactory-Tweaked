@@ -1192,3 +1192,9 @@ thermal_sep.recipeBuilder()
     .inputs(<gregtech:meta_item_1:2053>)
     .outputs(<nuclearcraft:plutonium:8>)
     .duration(3200).EUt(48).buildAndRegister();
+
+//Ridiculous Recipe for the Hyperspace disc
+recipes.remove(<nuclearcraft:record_hyperspace>);
+recipes.addShapeless("of_nc_record_hyperspace", <nuclearcraft:record_hyperspace>, [<ore:record>, <ore:dustBedrock>, <ore:dustEndSteel>, <ore:dustPulsating>, <ore:dustDilithium>, <ore:dustElectrumFlux>, <ore:dustNaquadah>, <ore:dustDiamond>, <appliedenergistics2:material:45>]);
+<nuclearcraft:record_hyperspace>.displayName = "§1Music Disc- Hyperspace§r";
+<nuclearcraft:record_hyperspace>.addTooltip("The best music disc of all time");
