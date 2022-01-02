@@ -10,6 +10,11 @@ The following major things were changed:
 For the rest of the changes, see [Tweaks.md](guides/Tweaks.md)
 This fork *may* also get bug fixes more frequently than main Omnifactory.
 
+Roadmap:
+[ ] Add more elements
+[ ] Add more fun catalyzed recipes
+[ ] Add more fun chemistry
+[ ] Try to make microminers more useful, especially t1mm post tank
 
 
 Original Description:
