@@ -321,7 +321,7 @@ reactor.recipeBuilder().inputs([<thermalfoundation:fertilizer>]).fluidInputs(<li
 // recipes for Manganese Oxides - currently unused
 // reactor.recipeBuilder().inputs([<gregtech:meta_item_1:2039>]).fluidInputs(<liquid:oxygen> * 250).outputs(<nuclearcraft:dust_oxide:2>).EUt(15).duration(120).buildAndRegister();
 // reactor.recipeBuilder().inputs([<nuclearcraft:dust_oxide:2>]).fluidInputs(<liquid:phosphoric_acid> * 1000).outputs(<nuclearcraft:dust_oxide:2>).EUt(500).duration(120).buildAndRegister();
-mixer.recipeBuilder().inputs([<gregtech:meta_item_1:2239>,<gregtech:meta_item_1:2026>]).outputs(<minecraft:glowstone_dust> * 2).EUt(15).duration(80).buildAndRegister();
+mixer.recipeBuilder().inputs([<ore:dustRedstone>,<ore:dustGold>]).outputs(<minecraft:glowstone_dust> * 2).EUt(15).duration(80).buildAndRegister();
 mixer.recipeBuilder().inputs([<gregtech:meta_item_1:2033>,<gregtech:meta_item_1:2071>]).outputs(<gregtech:meta_item_1:2189> * 2).EUt(15).duration(40).buildAndRegister();
 mixer.recipeBuilder().inputs([<gregtech:meta_item_1:2307>,<enderio:item_material:20> * 4,<contenttweaker:grainsofinnocence>,<enderio:item_material:36>]).fluidInputs([<liquid:pulsating_iron> * 576, <liquid:neptunium> * 144]).outputs(<gregtech:meta_item_1:2309>).EUt(8000).duration(400).buildAndRegister();
 mixer.recipeBuilder().inputs([<gregtech:meta_item_1:2308>,<enderio:item_material:34>,<enderio:item_material:35>*4,<enderio:item_material:37>]).fluidInputs([<liquid:enderium> * 576, <liquid:curium> * 144]).outputs(<gregtech:meta_item_1:2310>).EUt(30000).duration(400).buildAndRegister();
@@ -352,6 +352,10 @@ recipes.addShapeless(<extrautils2:endershard> * 8, [<minecraft:ender_pearl>]);
 assembler.findRecipe(2, [<minecraft:blaze_powder>,<minecraft:ender_pearl>], [null]).remove();
 assembler.findRecipe(2, [<minecraft:ender_pearl> * 6,<minecraft:blaze_rod>], [null]).remove();
 mixer.findRecipe(8, [<gregtech:meta_item_1:2184> * 3,<gregtech:meta_item_1:2229>,<gregtech:meta_item_1:2044>], [null]).remove();
+mixer.recipeBuilder().inputs([<ore:dustGold>, <ore:dustSilver>, <ore:dustCopper> * 3]).outputs(<gregtech:meta_item_1:2229> * 5).EUt(8).duration(600).buildAndRegister();
+macerator.findRecipe(10, [<minecraft:netherrack>], [null]).remove();
+electrolyzer.findRecipe(30, [null], [<liquid:water> * 1000]).remove();
+electrolyzer.recipeBuilder().fluidInputs([<liquid:water> * 1000]).fluidOutputs([<liquid:hydrogen> * 2000, <liquid:oxygen> * 1000]).EUt(30).duration(750).buildAndRegister();
 
 //Ammonia Recipe: Changes the EU/t
 reactor.findRecipe(384, [<gregtech:meta_item_1:32766>.withTag({Configuration: 1})], [<liquid:nitrogen> * 1000, <liquid:hydrogen> * 3000]).remove();
@@ -1020,7 +1024,7 @@ implosion.recipeBuilder()
 RecipeMap.chanceFunction = function(chance as int,
 									boostPerTier as int,
 									tier as int) as int {
-	if boostPerTier == 0 {
+	if(boostPerTier == 0){
 	    // Simulation Chamber recipes, for example, which should not scale
 	    return chance;
 	}

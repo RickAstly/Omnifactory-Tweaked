@@ -144,6 +144,22 @@ recipes.addShapeless(
 );
 
 
+//Cheapening the filter recipes
+
+recipes.removeByRecipeName("enderio:filter_advanced");
+recipes.addShaped("oftweaked_cheap_advanced_filter", <enderio:item_advanced_item_filter> * 4, [
+    [<minecraft:redstone>, <minecraft:paper>, <minecraft:redstone>],
+    [<minecraft:paper>, <enderio:item_material:41>, <minecraft:paper>],
+    [<minecraft:redstone>, <minecraft:paper>, <minecraft:redstone>],
+]);
+
+recipes.removeByRecipeName("enderio:filter_basic");
+recipes.addShaped("oftweaked_cheap_item_filter", <enderio:item_basic_item_filter> * 2, [
+    [null, <minecraft:paper>, null],
+    [<minecraft:paper>, <minecraft:hopper>, <minecraft:paper>],
+    [null, <minecraft:paper>, null],
+]);
+
 /*
 
   Extra Enderio Glasses
