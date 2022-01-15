@@ -8,6 +8,9 @@ The following major things were changed:
 * Added Quark(and autoreglib)
 * Make Certus Quartz and Garnet anything automateable, through Vitrified Sand
 * Added dogecoin
+* Made the pack never give you up
+* Edited the pack to never let you down
+* Forced the pack not to run around and desert you
 
 For the rest of the changes, see [Tweaks.md](guides/Tweaks.md)
 
