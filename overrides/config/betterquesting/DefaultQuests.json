@@ -9,7 +9,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "The main purpose for this device is to turn §6Certus Quartz Crystal§r into §6Charged Certus Quartz Crystal§r.\n\nThis device can be powered with RF via energy conduits or use AE energy from a network via ME conduits or cables.\n\nIt accepts power from two sides. Which two sides? It\u0027s pretty easy to guess.\n\n\n\n\n\n\n\n\nOk, ok. It\u0027s the top and bottom.\n\n",
+          "desc:8": "Never gonna give you up, never gonna let you down!\nThe main purpose for this device is to turn §6Certus Quartz Crystal§r into §6Charged Certus Quartz Crystal§r.\n\nThis device can be powered with RF via energy conduits or use AE energy from a network via ME conduits or cables.\n\nIt accepts power from two sides. Which two sides? It\u0027s pretty easy to guess.\n\n\n\n\n\n\n\n\nOk, ok. It\u0027s the top and bottom.\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -271,7 +271,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Welcome to §5Omnifactory§f!\n\nThis pack is intended to be played in a §bLost Cities / Overworld dimension§f.\n\nIf you\u0027re playing with friends, don\u0027t forget to invite them to the §equestbook party§f.\n\n§fIf you wish to build your base in a skyblock world, place the §6Void World Cake§f down on the ground, and eat a slice to be sent to the void. Please note that you\u0027ll still need to return to the Lost Cities / Overworld dimension to mine, but you can freely build in complete safety in the §eVoid World§f.",
+          "desc:8": "Welcome to §5Omnifactory(tweaked)§f!\n\nThis pack is intended to be played in a §bLost Cities / Overworld dimension§f.\n\nIf you\u0027re playing with friends, don\u0027t forget to invite them to the §equestbook party§f.\n\n§fIf you wish to build your base in a skyblock world, place the §6Void World Cake§f down on the ground, and eat a slice to be sent to the void. Please note that you\u0027ll still need to return to the Lost Cities / Overworld dimension to mine, but you can freely build in complete safety in the §eVoid World§f.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24315,7 +24315,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "You win.\n\nCongratulations.\n\nI hope you enjoyed playing §5Omnifactory§r.",
+          "desc:8": "You win.\n\nCongratulations.\n\nI hope you enjoyed playing §5Omnifactory§r, amd BalaM314 hopes his tweaks made the game more enjoyable.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31445,7 +31445,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Mix together these two crushed gems along with §9Resonant Ender§r to make §9Dew of the Void§r, the fluid that will power §bEnderIO§r interdimensional teleportation.\n\nPlease note that Dew of the Void goes great with Doritos.",
+          "desc:8": "Mix together these two crushed gems along with §9Resonant Ender§r to make §9Dew of the Void§r, the fluid that will power §bEnderIO§r interdimensional teleportation.\n\nPlease note that Dew of the Void is \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNEVERGONNAGIVEYOUUPNEVERGONNALETYOUDOWN",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -49324,7 +49324,12 @@
                   }
                 },
                 "display:10": {
-                  "Name:8": "I bought ore with Omnicoins"
+                  "Name:8": "I got §krickrolled§r?",
+                  "Lore:11": [
+                    "Never gonna give you up",
+                    "Never gonna let you down",
+                    "Never gonna run around and desert you"
+                  ]
                 }
               }
             }
